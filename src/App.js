@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+// import FilterBar from "./components/FilterBar";
+import SearchBar from "./components/SearchBar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon } from "@fortawesome/free-regular-svg-icons";
 
@@ -13,6 +15,7 @@ function App() {
               <span className="dark_mode_text">Dark Mode</span>
           </div>
       </header>
+      <SearchBar/>
     </div>
   );
 }
