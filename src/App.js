@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-// import FilterBar from "./components/FilterBar";
 import SearchBar from "./components/SearchBar";
+import Countries from "./components/Countries";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon } from "@fortawesome/free-regular-svg-icons";
 
@@ -16,6 +16,7 @@ function App() {
           </div>
       </header>
       <SearchBar/>
+      <Countries/>
     </div>
   );
 }
