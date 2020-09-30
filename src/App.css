@@ -109,4 +109,13 @@ span.filterText {
     border: none !important;
 }
 
+.country_img {
+    width: 270px;
+    height: 150px;
+}
+
+.container-fluid {
+    padding: 2.5rem !important;
+}
+
 
